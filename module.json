@@ -1,0 +1,39 @@
+{
+  "id": "pf2e-npc-party-scaling",
+  "title": "NPC Check Helper",
+  "description": "Adds an NPC-sheet toggle that normalizes PF2e NPC perception, saves, and skill values to the party's level.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Patchy"
+    }
+  ],
+  "url": "https://github.com/Patchy/npccheckhelper",
+  "esmodules": [
+    "scripts/pf2e-npc-party-scaling.mjs"
+  ],
+  "styles": [
+    "styles/pf2e-npc-party-scaling.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "manifest": "https://github.com/Patchy/npccheckhelper/releases/latest/download/module.json",
+  "download": "https://github.com/Patchy/npccheckhelper/releases/latest/download/npccheckhelper.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  }
+}

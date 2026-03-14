@@ -1,0 +1,25 @@
+.pf2e.actor.npc .npc-party-scaling .party-scaling-toggle {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+.pf2e.actor.npc .npc-party-scaling .party-scaling-toggle input {
+  margin: 0;
+}
+
+.pf2e.actor.npc .npc-party-scaling .party-scaling-modifier,
+.pf2e.actor.npc .npc-party-scaling .party-scaling-warning {
+  margin: 0.5rem 0 0;
+}
+
+.pf2e.actor.npc .npc-party-scaling .party-scaling-modifier {
+  font-weight: 700;
+}
+
+.pf2e.actor.npc .npc-party-scaling .party-scaling-warning {
+  color: #b54708;
+  font-size: 0.85em;
+  font-weight: 600;
+}
